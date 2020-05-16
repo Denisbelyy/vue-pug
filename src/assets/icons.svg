@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="account" viewBox="0 0 14 22" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+        <path d="M12 2H9V5H5V2H2C1.46957 2 0.960859 2.21071 0.585786 2.58579C0.210714 2.96086 0 3.46957 0 4V20C0 20.5304 0.210714 21.0391 0.585786 21.4142C0.960859 21.7893 1.46957 22 2 22H12C12.5304 22 13.0391 21.7893 13.4142 21.4142C13.7893 21.0391 14 20.5304 14 20V4C14 3.46957 13.7893 2.96086 13.4142 2.58579C13.0391 2.21071 12.5304 2 12 2ZM7 7C7.53043 7 8.03914 7.21071 8.41421 7.58579C8.78929 7.96086 9 8.46957 9 9C9 9.53043 8.78929 10.0391 8.41421 10.4142C8.03914 10.7893 7.53043 11 7 11C6.46957 11 5.96086 10.7893 5.58579 10.4142C5.21071 10.0391 5 9.53043 5 9C5 8.46957 5.21071 7.96086 5.58579 7.58579C5.96086 7.21071 6.46957 7 7 7ZM11 15H3V14C3 12.67 5.67 12 7 12C8.33 12 11 12.67 11 14V15ZM8 4H6V0H8V4ZM11 18H3V17H11V18ZM7 20H3V19H7V20Z" fill="black"/>
+    </symbol>
+    <symbol id="info" viewBox="0 0 20 20" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+    <path d="M9 7H11V5H9V7ZM10 18C5.59 18 2 14.41 2 10C2 5.59 5.59 2 10 2C14.41 2 18 5.59 18 10C18 14.41 14.41 18 10 18ZM10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM9 15H11V9H9V15Z" fill="#757575"/>
+    </symbol>
+    <symbol id="group" viewBox="0 0 22 20" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+      <path d="M8 0V6H10V9H4C2.89 9 2 9.89 2 11V14H0V20H6V14H4V11H10V14H8V20H14V14H12V11H18V14H16V20H22V14H20V11C20 9.89 19.11 9 18 9H12V6H14V0H8Z" fill="black"/>
+    </symbol>
+    <symbol id="map-marker" viewBox="0 0 20 20" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+       <path d="M7 9.5C6.33696 9.5 5.70107 9.23661 5.23223 8.76777C4.76339 8.29893 4.5 7.66304 4.5 7C4.5 6.33696 4.76339 5.70107 5.23223 5.23223C5.70107 4.76339 6.33696 4.5 7 4.5C7.66304 4.5 8.29893 4.76339 8.76777 5.23223C9.23661 5.70107 9.5 6.33696 9.5 7C9.5 7.3283 9.43534 7.65339 9.3097 7.95671C9.18406 8.26002 8.99991 8.53562 8.76777 8.76777C8.53562 8.99991 8.26002 9.18406 7.95671 9.3097C7.65339 9.43534 7.3283 9.5 7 9.5ZM7 0C5.14348 0 3.36301 0.737498 2.05025 2.05025C0.737498 3.36301 0 5.14348 0 7C0 12.25 7 20 7 20C7 20 14 12.25 14 7C14 5.14348 13.2625 3.36301 11.9497 2.05025C10.637 0.737498 8.85652 0 7 0Z" fill="black"/>
+    </symbol>
+    <symbol id="phone" viewBox="0 0 20 20" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+       <path d="M16 0H2C1.46957 0 0.960859 0.210714 0.585787 0.585786C0.210714 0.960859 0 1.46957 0 2V16C0 16.5304 0.210714 17.0391 0.585787 17.4142C0.960859 17.7893 1.46957 18 2 18H16C16.5304 18 17.0391 17.7893 17.4142 17.4142C17.7893 17.0391 18 16.5304 18 16V2C18 1.46957 17.7893 0.960859 17.4142 0.585786C17.0391 0.210714 16.5304 0 16 0ZM6 2V16H2V2H6ZM16 2V6H8V2H16ZM16 8V10H14V8H16ZM13 8V10H11V8H13ZM10 8V10H8V8H10ZM16 11V13H14V11H16ZM13 11V13H11V11H13ZM10 11V13H8V11H10ZM10 14V16H8V14H10ZM13 14V16H11V14H13ZM16 14V16H14V14H16Z" fill="#424242"/>
+    </symbol>
+    <symbol id="mobile" viewBox="0 0 20 22" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+      <path d="M11 17H2V3H11V17ZM6.5 21C6.10218 21 5.72064 20.842 5.43934 20.5607C5.15804 20.2794 5 19.8978 5 19.5C5 19.1022 5.15804 18.7206 5.43934 18.4393C5.72064 18.158 6.10218 18 6.5 18C6.89782 18 7.27936 18.158 7.56066 18.4393C7.84196 18.7206 8 19.1022 8 19.5C8 19.8978 7.84196 20.2794 7.56066 20.5607C7.27936 20.842 6.89782 21 6.5 21ZM10.5 0H2.5C1.83696 0 1.20107 0.263392 0.732233 0.732233C0.263392 1.20107 0 1.83696 0 2.5V19.5C0 20.163 0.263392 20.7989 0.732233 21.2678C1.20107 21.7366 1.83696 22 2.5 22H10.5C11.163 22 11.7989 21.7366 12.2678 21.2678C12.7366 20.7989 13 20.163 13 19.5V2.5C13 1.83696 12.7366 1.20107 12.2678 0.732233C11.7989 0.263392 11.163 0 10.5 0Z" fill="black"/>
+    </symbol>
+    <symbol id="cake" viewBox="0 0 20 20" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+       <path d="M10.5 0.5C11 0.75 12 2.4 12 3.5C12 4.6 11.33 5 10.5 5C9.67 5 9 4.85 9 3.75C9 2.65 10 2 10.5 0.5ZM17.5 9C20 9 22 11 22 13.5C22 15.06 21.21 16.43 20 17.24V23H11H2V17.24C0.79 16.43 0 15.06 0 13.5C0 11 2 9 4.5 9H9V6H12V9H17.5ZM11 16C11.663 16 12.2989 15.7366 12.7678 15.2678C13.2366 14.7989 13.5 14.163 13.5 13.5H15C15 14.163 15.2634 14.7989 15.7322 15.2678C16.2011 15.7366 16.837 16 17.5 16C18.163 16 18.7989 15.7366 19.2678 15.2678C19.7366 14.7989 20 14.163 20 13.5C20 12.837 19.7366 12.2011 19.2678 11.7322C18.7989 11.2634 18.163 11 17.5 11H4.5C3.83696 11 3.20107 11.2634 2.73223 11.7322C2.26339 12.2011 2 12.837 2 13.5C2 14.163 2.26339 14.7989 2.73223 15.2678C3.20107 15.7366 3.83696 16 4.5 16C5.16304 16 5.79893 15.7366 6.26777 15.2678C6.73661 14.7989 7 14.163 7 13.5H8.5C8.5 14.163 8.76339 14.7989 9.23223 15.2678C9.70107 15.7366 10.337 16 11 16Z" fill="black"/>
+    </symbol>
+    <symbol id="holiday" viewBox="0 0 20 20" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+       <path d="M9 7C10.59 14.61 7 20 7 20H10C11.88 14.2 11 10.09 10.5 8L9 7ZM12.66 5.16C12.83 5.37 13 5.59 13.13 5.82C14.84 8.53 14.5 11.95 12.5 14.26C13.34 12.21 13.22 9.79 11.95 7.77C11.87 7.64 11.78 7.53 11.7 7.41C11.11 6.58 10.36 5.92 9.54 5.43C6.66 6.35 4.58 9.04 4.58 12.22C4.58 12.96 4.69 13.67 4.89 14.33C4.05 13.16 3.56 11.73 3.56 10.19C3.56 7.84 4.7 5.76 6.45 4.46C5 4.35 3.46 4.67 2.12 5.5C1.5 5.91 0.96 6.38 0.5 6.91C1.05 5.58 2 4.39 3.3 3.57C4.8 2.63 6.5 2.32 8.14 2.56C7.73 2 7.23 1.47 6.63 1C6.05 0.58 5.42 0.24 4.76 0C6.2 0.04 7.64 0.5 8.87 1.43C9.5 1.9 10 2.47 10.4 3.07C10.5 3.07 10.59 3.06 10.69 3.06C13.89 3.06 16.6 5.17 17.5 8.08C16.38 6.5 14.65 5.43 12.66 5.16Z" fill="black"/>
+    </symbol>
+    <symbol id="email" viewBox="0 0 20 20" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+       <path opacity="0.6" d="M10 13C10.81 13 11.5 12.7 12.11 12.11C12.7 11.5 13 10.81 13 10C13 9.19 12.7 8.5 12.11 7.89C11.5 7.3 10.81 7 10 7C9.19 7 8.5 7.3 7.89 7.89C7.3 8.5 7 9.19 7 10C7 10.81 7.3 11.5 7.89 12.11C8.5 12.7 9.19 13 10 13ZM10 0C12.75 0 15.1 1 17.05 2.95C19 4.9 20 7.25 20 10V11.45C20 12.45 19.65 13.3 19 14C18.3 14.67 17.5 15 16.5 15C15.3 15 14.31 14.5 13.56 13.5C12.56 14.5 11.38 15 10 15C8.63 15 7.45 14.5 6.46 13.54C5.5 12.55 5 11.38 5 10C5 8.63 5.5 7.45 6.46 6.46C7.45 5.5 8.63 5 10 5C11.38 5 12.55 5.5 13.54 6.46C14.5 7.45 15 8.63 15 10V11.45C15 11.86 15.16 12.22 15.46 12.53C15.76 12.84 16.11 13 16.5 13C16.92 13 17.27 12.84 17.57 12.53C17.87 12.22 18 11.86 18 11.45V10C18 7.81 17.23 5.93 15.65 4.35C14.07 2.77 12.19 2 10 2C7.81 2 5.93 2.77 4.35 4.35C2.77 5.93 2 7.81 2 10C2 12.19 2.77 14.07 4.35 15.65C5.93 17.23 7.81 18 10 18H15V20H10C7.25 20 4.9 19 2.95 17.05C1 15.1 0 12.75 0 10C0 7.25 1 4.9 2.95 2.95C4.9 1 7.25 0 10 0Z" fill="black"/>
+    </symbol>
+    <symbol id="skype" viewBox="0 0 48 48" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+       <path fill="#03a9f4" d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"/><path fill="#03a9f4" d="M33.5 22A11.5 11.5 0 1 0 33.5 45 11.5 11.5 0 1 0 33.5 22zM14.5 3A11.5 11.5 0 1 0 14.5 26 11.5 11.5 0 1 0 14.5 3z"/><path fill="#fff" d="M24.602,36C18,36,15,32.699,15,30.199C15,28.898,15.898,28,17.199,28c2.801,0,2.102,4.102,7.402,4.102c2.699,0,4.199-1.5,4.199-3c0-0.902-0.402-1.902-2.199-2.402l-5.902-1.5C16,24,15.102,21.398,15.102,18.898c0-5.098,4.699-6.898,9.098-6.898C28.301,12,33,14.199,33,17.199c0,1.301-1,2.102-2.301,2.102c-2.398,0-2-3.402-6.801-3.402c-2.398,0-3.797,1.102-3.797,2.703c0,1.598,1.898,2.098,3.598,2.5l4.402,1C32.898,23.199,34,26,34,28.699C33.898,32.898,30.898,36,24.602,36z"/>
+    </symbol>
+    <symbol id="teams" viewBox="0 0 48 48" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+       <rect width="24" height="24" fill="url(#pattern0)"/>
+<path fill="#5c6bc0" d="M41.5 13A3.5 3.5 0 1 0 41.5 20 3.5 3.5 0 1 0 41.5 13zM4 40l23 4V4L4 8V40z"/><path fill="#fff" d="M21 16.27L21 19 17.01 19.18 16.99 31.04 14.01 30.95 14.01 19.29 10 19.45 10 16.94z"/><path fill="#5c6bc0" d="M36 14c0 2.21-1.79 4-4 4-1.2 0-2.27-.53-3-1.36v-5.28c.73-.83 1.8-1.36 3-1.36C34.21 10 36 11.79 36 14zM38 23v11c0 0 1.567 0 3.5 0 1.762 0 3.205-1.306 3.45-3H45v-8H38zM29 20v17c0 0 1.567 0 3.5 0 1.762 0 3.205-1.306 3.45-3H36V20H29z"/>
+    </symbol>
+    <symbol id="edit" viewBox="0 0 20 20" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+       <path d="M17.71 5.04006C18.1 4.65006 18.1 4.00006 17.71 3.63006L15.37 1.29006C15 0.900059 14.35 0.900059 13.96 1.29006L12.12 3.12006L15.87 6.87006L17.71 5.04006ZM0 15.2501V19.0001H3.75L14.81 7.93006L11.06 4.18006L0 15.2501Z" class="fill0"/>
+    </symbol>
+    <symbol id="check" viewBox="0 0 20 20" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+       <path d="M18 1.99997L6 14L0.5 8.49997L1.91 7.08997L6 11.17L16.59 0.589966L18 1.99997Z" fill="#4FDD36"/>
+    </symbol>
+    <symbol id="close" viewBox="0 0 20 20" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+<path d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z" fill="#F44336"/>
+    </symbol>
+    <symbol id="download" viewBox="0 0 20 20" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+<path d="M14 0L-1.48619e-06 1.22392e-06L-1.31134e-06 2L14 2L14 0ZM-5.24537e-07 11L4 11L4 17L10 17L10 11L14 11L7 4L-5.24537e-07 11Z" fill="#071AC3"/>
+    </symbol>
+    <symbol id="close-modal" viewBox="0 0 20 20" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+<path d="M19.3334 2.54667L17.4534 0.666672L10.0001 8.12001L2.54675 0.666672L0.666748 2.54667L8.12008 10L0.666748 17.4533L2.54675 19.3333L10.0001 11.88L17.4534 19.3333L19.3334 17.4533L11.8801 10L19.3334 2.54667Z" fill="#071AC3"/>
+    </symbol>
+    <symbol id="close-label" viewBox="0 0 10 10" fill-rule="evenodd" clip-rule="evenodd"
+       image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.0">
+<path d="M9.66683 1.27337L8.72683 0.333374L5.00016 4.06004L1.2735 0.333374L0.333496 1.27337L4.06016 5.00004L0.333496 8.72671L1.2735 9.66671L5.00016 5.94004L8.72683 9.66671L9.66683 8.72671L5.94016 5.00004L9.66683 1.27337Z" fill="black"/>
+</symbol>
+
+</svg>
