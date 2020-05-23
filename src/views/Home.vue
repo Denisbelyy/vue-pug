@@ -22,7 +22,7 @@
           div(class="content__info-item")
             div(class="text-left row")
               v-icon(name="account")
-              span Директор департамента размещения рекламы телевизионного спонсорства и спецпроектов на федеральном и неэфирном ТВ в 
+              span Frontent-developer в 
                 a(href="#") Company name
             
             div(class="text-left row")
@@ -31,7 +31,7 @@
                 a(href="#") Группа развития и интеграции внутренних решений
                 div Руководитель 
                   a(href="#") Иван Иванов
-          div(class="content__info-item text-right ais") Работает в Company name 
+          div(class="text-right ais") Работает в Company name 
             span(class="bold") 8 месяцев, с 27.05.19
         
         div(class="content__contact")
@@ -326,10 +326,13 @@ export default {
     }
     &-logo {
       position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       height: 182px;
       img {
-        width: 100%;
-        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
       }
       &-edit {
         display: none;
@@ -366,6 +369,9 @@ export default {
       flex-wrap: wrap;
       &-item {
         width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         & > div {
           margin-bottom: 20px;
         }

@@ -1,9 +1,6 @@
 <template lang="pug">
   div(class="v-select")
-    label(for="v-select-input" class="v-select__label" ref="vSelect")
-      div(v-for="(label, i) in selectValues" class="v-select__item")
-        span {{label}}
-        v-icon(name="close-label" @click.native="removeItem(i)")
+    div(for="v-select-input" class="v-select__label" ref="vSelect")
       input(
         v-model="searchValue"
         class="v-select__input"
@@ -11,9 +8,12 @@
         autocomplete="off"
         @input="inputText"
       )
+      div(class="v-select__items")
+        div(v-for="(label, i) in selectValues" class="v-select__item")
+          span {{label}}
+          v-icon(name="close-label" @click.native="removeItem(i)")
     div(
       class="v-select__dropdown" 
-      :style="{top:positionTopDropdown}" 
       @click.stop 
       v-if="showDropdown"
     )
@@ -48,7 +48,6 @@ export default {
       selectValues: [],
       items: [],
       searchValue: "",
-      positionTopDropdown: "49px",
       idElement: null
     };
   },
@@ -63,13 +62,7 @@ export default {
     hideDropdown() {
       this.showDropdown = false;
     },
-    changePositionTopDropdown() {
-      this.$nextTick(() => {
-        this.positionTopDropdown = `${this.$refs.vSelect.scrollHeight + 2}px`;
-      });
-    },
     inputText(event) {
-      this.changePositionTopDropdown();
       this.showDropdown = true;
       this.items = this.listItems.filter(el => el.includes(event.target.value));
     },
@@ -78,11 +71,10 @@ export default {
         this.selectValues.push(item);
       }
       this.searchValue = "";
-      this.changePositionTopDropdown();
+      this.showDropdown = false;
     },
     removeItem(index) {
       this.selectValues.splice(index, 1);
-      this.changePositionTopDropdown();
     }
   }
 };
@@ -93,15 +85,8 @@ export default {
   position: relative;
   display: flex;
   flex-direction: row;
-  align-items: center;
   &__label {
     width: 70%;
-    padding: 10px 15px;
-    background: #ffffff;
-    border: 1px solid #071ac3;
-    box-sizing: border-box;
-    position: relative;
-    text-align: left;
     display: flex;
     flex-wrap: wrap;
   }
@@ -123,8 +108,14 @@ export default {
     }
   }
   &__input {
-    border: none;
-    margin-left: 4px;
+    padding: 10px 15px;
+    background: #ffffff;
+    border: 1px solid #071ac3;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 8px;
     font-size: 14px;
     &:active,
     &:hover,
@@ -136,7 +127,7 @@ export default {
   &__dropdown {
     width: 70%;
     position: absolute;
-    top: 49px;
+    top: 38px;
     left: 0;
     box-shadow: 0px 1px 2px 0 grey;
     max-height: 160px;
@@ -155,6 +146,7 @@ export default {
   }
   &__toolbar {
     margin-left: 10px;
+    padding-top: 10px;
     .icon {
       cursor: pointer;
     }
